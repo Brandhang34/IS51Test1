@@ -56,8 +56,8 @@ def option2():
 
 def main():
     answer = ""
-    var1 = option1() # 1000
-    var2 = option2() # 1023
+    var1 = option1()
+    var2 = option2()
     if var1 == var2:
         answer = "Option 1 and Option 2 pays the same"
     if var1 < var2:
