@@ -54,13 +54,13 @@ def option2():
     total = sum(list1)
     return total
 
-def main():
+def main(): 
     answer = ""
     var1 = option1()
     var2 = option2()
     if var1 == var2:
         answer = "Option 1 and Option 2 pays the same"
-    if var1 < var2:
+    elif var1 < var2:
         answer = "Option 2 is better"
     else:
         answer = "Option 1 is better"
